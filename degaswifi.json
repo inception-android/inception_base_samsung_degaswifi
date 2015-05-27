@@ -1,0 +1,31 @@
+{
+    "__extends__": "samsung.common",
+    "common": {
+        "tools": {
+            "unpackbootimg": {
+                "bin": "extra/bin/degas-unpackbootimg"
+            },
+            "mkbootimg": {
+                "bin": "extra/bin/degas-mkbootimg"
+            }
+        }
+    },
+    "boot": {
+        "make": false
+    },
+    "recovery": {
+        "img": "imgs/recovery.img",
+        "stockimg": "imgs/recovery_stock.img",
+        "dev": "/dev/block/mmcblk0p9",
+        "include_update": true,
+        "size": 16777216
+    },
+    "cache": {
+        "size": 209715200,
+        "sparsed": true,
+        "dev": "/dev/block/mmcblk0p14"
+    },
+    "update": {
+        "recovery_restore": false
+    }
+}
