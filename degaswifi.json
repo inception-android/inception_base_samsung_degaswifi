@@ -20,7 +20,7 @@
         }
     },
     "boot": {
-        "make": false
+        "__make__": false
     },
     "recovery": {
         "img": "imgs/recovery.img",
