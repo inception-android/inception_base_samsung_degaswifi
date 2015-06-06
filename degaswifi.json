@@ -24,7 +24,7 @@
     },
     "recovery": {
         "img": "imgs/recovery.img",
-        "stockimg": "imgs/recovery_stock.img",
+        "stock": "imgs/recovery_stock.img",
         "dev": "/dev/block/mmcblk0p9",
         "include_update": true,
         "size": 16777216
@@ -35,6 +35,8 @@
         "dev": "/dev/block/mmcblk0p14"
     },
     "update": {
-        "recovery_restore": false
+        "recovery_restore": false,
+        "settings": {
+        }
     }
 }
