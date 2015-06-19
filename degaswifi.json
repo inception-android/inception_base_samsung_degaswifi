@@ -88,7 +88,7 @@
         "__make__": false
     },
     "recovery": {
-        "img": "imgs/recovery.img",
+        "img": "imgs/recovery_stock.img",
         "stock": "imgs/recovery_stock.img",
         "__make__": true
     },
